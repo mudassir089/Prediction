@@ -26,3 +26,4 @@ async function app() {
     await tf.nextFrame();
   }
 }
+app()

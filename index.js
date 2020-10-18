@@ -1,5 +1,4 @@
 const webcamElement = document.getElementById('webcam');
-let net;
 
 async function app() {
   console.log('Loading mobilenet..');
@@ -26,4 +25,4 @@ async function app() {
     // fire.
     await tf.nextFrame();
   }
-app();
+}
